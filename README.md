@@ -1,3 +1,5 @@
 # WP Improvements Snippets
 
-## Please, wait for more..
+Custom snippets from improvements WP for our daily use.
+
+### Please, wait for more..
