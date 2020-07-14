@@ -25,7 +25,7 @@
  * @since      0.0.1
  * @package    WP_Improvements_Snippets
  * @subpackage WP_Improvements_Snippets/includes
- * @author     Your Name <email@example.com>
+ * @author     Everaldo Matias <aoseudispor@everaldo.dev>
  */
 class WP_Improvements_Snippets {
 

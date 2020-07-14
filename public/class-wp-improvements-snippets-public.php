@@ -3,7 +3,7 @@
 /**
  * The public-facing functionality of the plugin.
  *
- * @link       http://example.com
+ * @link       https://everaldo.dev/plugins/wp-improvements-snippets/
  * @since      0.0.1
  *
  * @package    WP_Improvements_Snippets
@@ -18,18 +18,18 @@
  *
  * @package    WP_Improvements_Snippets
  * @subpackage WP_Improvements_Snippets/public
- * @author     Your Name <email@example.com>
+ * @author     Everaldo Matias <aoseudispor@everaldo.dev>
  */
-class WP_IMPROVEMENTS_SNIPPETS_Public {
+class WP_Improvements_Snippets_Public {
 
 	/**
 	 * The ID of this plugin.
 	 *
 	 * @since    0.0.1
 	 * @access   private
-	 * @var      string    $WP_Improvements_Snippets    The ID of this plugin.
+	 * @var      string    $wp_improvements_snippets    The ID of this plugin.
 	 */
-	private $WP_Improvements_Snippets;
+	private $wp_improvements_snippets;
 
 	/**
 	 * The version of this plugin.
@@ -47,9 +47,9 @@ class WP_IMPROVEMENTS_SNIPPETS_Public {
 	 * @param      string    $WP_Improvements_Snippets       The name of the plugin.
 	 * @param      string    $version    The version of this plugin.
 	 */
-	public function __construct( $WP_Improvements_Snippets, $version ) {
+	public function __construct( $wp_improvements_snippets, $version ) {
 
-		$this->WP_Improvements_Snippets = $WP_Improvements_Snippets;
+		$this->wp_improvements_snippets = $wp_improvements_snippets;
 		$this->version = $version;
 
 	}
@@ -65,15 +65,15 @@ class WP_IMPROVEMENTS_SNIPPETS_Public {
 		 * This function is provided for demonstration purposes only.
 		 *
 		 * An instance of this class should be passed to the run() function
-		 * defined in WP_IMPROVEMENTS_SNIPPETS_Loader as all of the hooks are defined
+		 * defined in WP_Improvements_Snippets_Loader as all of the hooks are defined
 		 * in that particular class.
 		 *
-		 * The WP_IMPROVEMENTS_SNIPPETS_Loader will then create the relationship
+		 * The WP_Improvements_Snippets_Loader will then create the relationship
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->WP_Improvements_Snippets, plugin_dir_url( __FILE__ ) . 'css/wp-improvements-snippets-public.css', array(), $this->version, 'all' );
+		wp_enqueue_style( $this->wp_improvements_snippets, plugin_dir_url( __FILE__ ) . 'css/wp-improvements-snippets-public.css', array(), $this->version, 'all' );
 
 	}
 
@@ -88,15 +88,15 @@ class WP_IMPROVEMENTS_SNIPPETS_Public {
 		 * This function is provided for demonstration purposes only.
 		 *
 		 * An instance of this class should be passed to the run() function
-		 * defined in WP_IMPROVEMENTS_SNIPPETS_Loader as all of the hooks are defined
+		 * defined in WP_Improvements_Snippets_Loader as all of the hooks are defined
 		 * in that particular class.
 		 *
-		 * The WP_IMPROVEMENTS_SNIPPETS_Loader will then create the relationship
+		 * The WP_Improvements_Snippets_Loader will then create the relationship
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->WP_Improvements_Snippets, plugin_dir_url( __FILE__ ) . 'js/wp-improvements-snippets-public.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( $this->wp_improvements_snippets, plugin_dir_url( __FILE__ ) . 'js/wp-improvements-snippets-public.js', array( 'jquery' ), $this->version, false );
 
 	}
 
