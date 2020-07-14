@@ -67,8 +67,8 @@ class WP_Improvements_Snippets {
 	 * @since    0.0.1
 	 */
 	public function __construct() {
-		if ( defined( 'WP_IMPROVEMENTS_SNIPPETS_VERSION' ) ) {
-			$this->version = WP_IMPROVEMENTS_SNIPPETS_VERSION;
+		if ( defined( 'WPIS_VERSION' ) ) {
+			$this->version = WPIS_VERSION;
 		} else {
 			$this->version = '0.0.1';
 		}

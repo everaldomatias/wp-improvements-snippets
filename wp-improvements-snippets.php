@@ -33,7 +33,12 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Plugin version.
  */
-define( 'WP_IMPROVEMENTS_SNIPPETS_VERSION', '0.0.1' );
+define( 'WPIS_VERSION', '0.0.1' );
+
+/**
+ * Plugin path
+ */
+define( 'WPIS_PATH', plugin_dir_path( __FILE__ ) );
 
 /**
  * The core plugin class that is used to define internationalization,
