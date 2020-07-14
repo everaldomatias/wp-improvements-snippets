@@ -72,7 +72,7 @@ class WP_Improvements_Snippets {
 		} else {
 			$this->version = '0.0.1';
 		}
-		$this->WP_Improvements_Snippets = 'wp-improvements-snippets';
+		$this->wp_improvements_snippets = 'wp-improvements-snippets';
 
 		$this->load_dependencies();
 		$this->set_locale();
